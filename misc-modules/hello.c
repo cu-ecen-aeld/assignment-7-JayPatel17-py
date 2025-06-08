@@ -8,7 +8,7 @@ MODULE_LICENSE("Dual BSD/GPL");
 static int hello_init(void)
 {
 	printk(KERN_ALERT "Hello, world\n");
-	printf(KERN_ALERT "jaypatelf17-py\n");
+	printk(KERN_ALERT "jaypatelf17-py\n");
 	return 0;
 }
 
